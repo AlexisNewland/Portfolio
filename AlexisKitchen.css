@@ -1,0 +1,305 @@
+
+/* HTML, Body, Pink Line above Nav Menu */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.line-above-menu {
+    height: 25px; /* Adjust the height of the line as needed */
+    background-color: #EDAEC0; /* Set the desired line color */
+}
+
+
+/* Banners */
+
+.bannerfont {
+    padding-top: 230px;
+    padding-bottom: 230px;
+    height: 50px;
+    text-align: center;
+    font-family: "Inter-Bold", Helvetica;
+    object-position: center;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    }
+
+/* Homepage */
+.showcase {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/MainPageBanner.jpg");
+    padding: 3rem; 
+}
+
+/* Newsletter Page */
+.showcaseloop {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/Loop.jpeg");
+    padding: 3rem; 
+}
+
+/* Recipes Page */
+.showcaserecipe {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/Raspberries.jpg");
+    padding: 3rem;
+}
+
+/* About Page */
+.showcaseabout {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/AboutPageBanner.jpg");
+    padding: 3rem;
+}
+
+/* Manicotti Page */
+.showcasemanicotti {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/Manicotti.jpg");
+    padding: 3rem;
+}
+
+/* Taco Dip Page */
+.showcasetacodip {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/TacoDipCup.jpeg");
+    padding: 3rem;
+}
+
+/* Ginger Cookies Page */
+.showcasegingercookies {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/GingerCookies.jpg");
+    padding: 3rem;
+}
+
+/* Stir Fry */
+.showcasestirfry {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/StirFry.jpeg");
+    padding: 3rem;
+}
+
+
+/* French Silk Pie */
+.showcasefrenchsilkpie {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/FrenchSilkPie.jpeg");
+    padding: 3rem;
+}
+
+/* Pizza Cups */
+.showcasepizzacups {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/PizzaCups.jpeg");
+    padding: 3rem;
+}
+
+/* Entrees Page */
+.showcaseentrees {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/EntreesPageBanner.jpg");
+    padding: 3rem;
+}
+
+/* Appetizers Page */
+.showcaseappetizers {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/AppetizersPageBanner.jpg");
+    padding: 3rem;
+}
+
+/* Desserts Page */
+.showcasedesserts {
+    background-size: cover;
+    background-position: center;
+    background-image: url("WebsitePhotos/DessertsPageBanner.jpg");
+    padding: 3rem;
+}
+
+/*About Page and Recipe Page Text */
+
+/* Recipe Listings */
+
+.AboutandRecipeText p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    
+.AboutRecipeText {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+        
+    }
+
+.RecipeHeaders {
+    font-weight: 700;
+}
+
+/* Box Recipe Cards */
+
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+}
+
+.box{
+    background: rgba(245, 242, 242, 1);
+    text-align: center;
+    padding: 1.5rem;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+}
+
+.box img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* Fonts in Boxes and Cards */
+
+.CategoryFont {
+    font-family: "Source Serif Pro-Light", Helvetica;
+    font-weight: 300;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.FoodFont {
+    font-family: "Caveat-Regular", Helvetica;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+/* View Recipe Button */
+
+.ViewRecipeButton {
+    display: grid;
+    background-color: #EDAEC0;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 800;
+    padding: 30px;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+.ViewRecipeButton a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the parent element's color (black) */
+}
+
+.ViewRecipeButton:hover {
+    background: lightgrey;
+    color: white;
+} 
+
+/* View Recipe Button within Bootstrap Cards */
+
+.card-body .ViewRecipeButton {
+    width: 30%;
+}
+
+.col-md-8 {
+    background-color: #F5F2F2;
+}
+
+/* Recently Added Text */
+
+.RecentlyAdded {
+    font-family: "Mukta-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #EDAEC0;
+    position: absolute;
+}
+
+/* Media Queries */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+
+    .card-body .ViewRecipeButton {
+        width: 100%;
+    }
+
+    .bannerfont {
+        font-size: 25px;
+        }
+
+    .RecentlyAdded {
+    font-size: 25px;
+}
+
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Media Queries for Mid-Range Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    .card-body .ViewRecipeButton {
+        width: 50%;
+    }
+
+    .bannerfont {
+        font-size: 30px;
+        }
+
+    .RecentlyAdded {
+        font-size: 30px;
+        }
+
+    }
+
+
+
+
+
