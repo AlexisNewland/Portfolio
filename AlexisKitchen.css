@@ -37,7 +37,7 @@ body {
 .showcase {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/MainPageBanner.jpg");
+    background-image: url("MainPageBanner.jpg");
     padding: 3rem; 
 }
 
@@ -45,7 +45,7 @@ body {
 .showcaseloop {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/Loop.jpeg");
+    background-image: url("Loop.jpeg");
     padding: 3rem; 
 }
 
@@ -53,7 +53,7 @@ body {
 .showcaserecipe {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/Raspberries.jpg");
+    background-image: url("Raspberries.jpg");
     padding: 3rem;
 }
 
@@ -61,7 +61,7 @@ body {
 .showcaseabout {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/AboutPageBanner.jpg");
+    background-image: url("AboutPageBanner.jpg");
     padding: 3rem;
 }
 
@@ -69,7 +69,7 @@ body {
 .showcasemanicotti {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/Manicotti.jpg");
+    background-image: url("Manicotti.jpg");
     padding: 3rem;
 }
 
@@ -77,7 +77,7 @@ body {
 .showcasetacodip {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/TacoDipCup.jpeg");
+    background-image: url("TacoDipCup.jpeg");
     padding: 3rem;
 }
 
@@ -85,7 +85,7 @@ body {
 .showcasegingercookies {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/GingerCookies.jpg");
+    background-image: url("GingerCookies.jpg");
     padding: 3rem;
 }
 
@@ -93,7 +93,7 @@ body {
 .showcasestirfry {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/StirFry.jpeg");
+    background-image: url("StirFry.jpeg");
     padding: 3rem;
 }
 
@@ -102,7 +102,7 @@ body {
 .showcasefrenchsilkpie {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/FrenchSilkPie.jpeg");
+    background-image: url("FrenchSilkPie.jpeg");
     padding: 3rem;
 }
 
@@ -110,7 +110,7 @@ body {
 .showcasepizzacups {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/PizzaCups.jpeg");
+    background-image: url("PizzaCups.jpeg");
     padding: 3rem;
 }
 
@@ -118,7 +118,7 @@ body {
 .showcaseentrees {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/EntreesPageBanner.jpg");
+    background-image: url("EntreesPageBanner.jpg");
     padding: 3rem;
 }
 
@@ -126,7 +126,7 @@ body {
 .showcaseappetizers {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/AppetizersPageBanner.jpg");
+    background-image: url("AppetizersPageBanner.jpg");
     padding: 3rem;
 }
 
@@ -134,7 +134,7 @@ body {
 .showcasedesserts {
     background-size: cover;
     background-position: center;
-    background-image: url("WebsitePhotos/DessertsPageBanner.jpg");
+    background-image: url("DessertsPageBanner.jpg");
     padding: 3rem;
 }
 
