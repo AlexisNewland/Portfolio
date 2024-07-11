@@ -37,7 +37,7 @@ body {
 .showcase {
     background-size: cover;
     background-position: center;
-    background-image: url("MainPageBanner.jpg");
+    background-image: ("MainPageBanner.jpg");
     padding: 3rem; 
 }
 
