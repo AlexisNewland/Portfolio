@@ -1,0 +1,185 @@
+/* index.html */
+
+.homeInfo {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 1em;
+    padding-top: 6vw;
+}
+
+.headshotAndDesc {
+    grid-column: 2/4;
+    width: 100%;
+}
+
+.aLittleBit {
+    grid-column: 4/6;
+    text-align: center;
+}
+
+.aLittleBit h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25vw;
+    color: #b8b69c;
+}
+
+.aLittleBit h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.aLittleBit p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.85vw;
+    font-weight: 200;
+}
+
+/* about.html */
+
+.aboutInfo {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 1em;
+    padding-top: 0.75vw;
+}
+
+.aboutMeDesc {
+    grid-column: 2/8;
+    text-align: center;
+}
+
+.aboutMeDesc h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.aboutMeDesc h6 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25vw;
+    font-weight: 200;
+}
+
+.buttonSection {
+    grid-column: 4 / 6;
+    display: flex;    
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 1vw;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.buttonSection .btn {
+    color: #b8b69c;
+    border: 0.15vw solid #b8b69c; /* Changed to use vw units for border width */
+    border-radius: 0%; 
+    transition: all 0.3s ease; 
+    padding: 0.75vw 2vw; /* Added padding with vw units */
+    font-size: 1.25vw; /* Added font-size with vw units */
+    text-align: center;
+    text-decoration: none; /* Remove underline from link */
+}
+
+.buttonSection .btn:hover {
+    color: #f7f3eb; 
+    background-color: #b8b69c;
+    border-color: #b8b69c; 
+}
+
+.carousel {
+    grid-column: 2/8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item img {
+    border-radius: 60%;
+    width: 80%;
+  }
+
+.gradientLine {
+    width: 100%;
+    background: linear-gradient(45deg, #ADD8E6, #FF69B4);
+    height: 20px; /* Adjust the height as needed */
+}
+
+.skillsAndQual {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 1em;
+    padding-top: 0.75vw;
+}
+
+.skillsAndQual .btn {
+    color: #b8b69c;
+    border: 0.15vw solid #b8b69c; 
+    border-radius: 0%; 
+    transition: all 0.3s ease; 
+    padding: 0.75vw 2vw; 
+    font-size: 1.25vw; 
+    text-align: center;
+    text-decoration: none; 
+}
+
+  /* contact.html */ 
+
+  .contactInfo {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 1em;
+    padding-top: 25px;
+    place-items: center;
+}
+
+.contactDesc {
+    grid-column: 2/8;
+    text-align: center;
+    background-color: #D8E5BA;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contactDesc h1 {
+    color: black;
+    font-family: "Caveat-Regular", Helvetica;
+}
+
+.contactDesc h6 {
+    color: black;
+    font-family: "Inter-Bold", Helvetica;
+}
+
+.contactButtonSection {
+    grid-column: 4 / 6;
+    display: flex;    
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 15px;
+}
+
+
+.contactButtonSection .btn {
+    color: black; 
+    border-color: black; 
+    border-radius: 0%; 
+    transition: all 0.3s ease; 
+}
+
+.contactButtonSection .btn:hover {
+    color: #ffffff; 
+    background-color: black; 
+    border-color: black;
+}
