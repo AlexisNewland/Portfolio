@@ -1,5 +1,9 @@
 /* index.html */
 
+.navBar{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .homeInfo {
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -79,7 +83,7 @@
 .buttonSection .btn {
     color: #b8b69c;
     border: 0.15vw solid #b8b69c; /* Changed to use vw units for border width */
-    border-radius: 0%; 
+    border-radius: 10px; 
     transition: all 0.3s ease; 
     padding: 0.75vw 2vw; /* Added padding with vw units */
     font-size: 1.25vw; /* Added font-size with vw units */
@@ -112,44 +116,142 @@
 
 .gradientLine {
     width: 100%;
-    background: linear-gradient(45deg, #ADD8E6, #FF69B4);
-    height: 20px; /* Adjust the height as needed */
+    /*background: linear-gradient(135deg, #b8b69c, #e6d1a3, #e6a3a3, #d3a3b5); */
+    background: linear-gradient(135deg, #6D6875, #B5838D, #E5989B, #FFB4A2, #FFCDB2, #FFB4A2, #E5989B, #B5838D, #6D6875);
+    height: 30px; 
+    padding-top: 0.50vw;
+}
+
+.skillsDesc {
+    grid-column: 2/8;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.skillsDesc h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .skillsAndQual {
     display: grid;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-column-gap: 1em;
-    padding-top: 0.75vw;
+    grid-row-gap: 1em; /* Add gap between rows */
+    padding-top: 1.25vw;
+    padding-bottom: 1.75vw;
+    grid-auto-rows: minmax(100px, auto); /* Automatically create new rows */
 }
 
 .skillsAndQual .btn {
-    color: #b8b69c;
-    border: 0.15vw solid #b8b69c; 
+    color: #f7f3eb;
+    background-color: #6D6875;
+    border: 0.15vw solid #6D6875; 
     border-radius: 0%; 
     transition: all 0.3s ease; 
     padding: 0.75vw 2vw; 
     font-size: 1.25vw; 
     text-align: center;
     text-decoration: none; 
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsAndQual .btn:hover {
+    color: #6D6875; 
+    background-color: #f7f3eb;
+    border-color: #6D6875; 
+}
+
+.btn-sql { grid-column: 2 / 4; grid-row: 1;}
+.btn-python { grid-column: 4 / 6; grid-row: 1;}
+.btn-html { grid-column: 6 / 8; grid-row: 1;}
+.btn-cloud {grid-column: 8 / 10; grid-row: 1;}
+.btn-data { grid-column: 2 / 4; grid-row: 2;}
+.btn-system { grid-column: 4 / 6; grid-row: 2;}
+.btn-erd { grid-column: 6 / 8; grid-row: 2;}
+.btn-excel {grid-column: 8 / 10; grid-row: 2;}
+
+.certDesc {
+    grid-column: 2/8;
+    text-align: center;
+    padding-top: 0.35vw;
+}
+
+.certDesc h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.certs {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em; /* Add gap between rows */
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
+    /* grid-auto-rows: minmax(100px, auto); /* Automatically create new rows */
+}
+
+.certs .btn {
+    color: #f7f3eb; 
+    background-color: #2B2E4A;
+    border: 0.15vw solid #2B2E4A; 
+    border-radius: 0%; 
+    transition: all 0.3s ease; 
+    padding: 0.75vw 2vw; 
+    font-size: 1.25vw; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certs .btn:hover {
+    color: #2B2E4A; 
+    background-color: #f7f3eb;
+    border-color: #2B2E4A; 
+}
+
+.btn-yellow { grid-column: 2 / 4; grid-row: 1;}
+.btn-white { grid-column: 4 / 6; grid-row: 1;}
+.btn-aws { grid-column: 6 / 8; grid-row: 1;}
+
+.certs h6 {
+    grid-column: 2 / 8;
+    font-family: 'Playfair Display', serif;
 }
 
   /* contact.html */ 
 
+  .gradientLineContact {
+    width: 100%;
+    /*background: linear-gradient(135deg, #b8b69c, #e6d1a3, #e6a3a3, #d3a3b5); */
+    background: linear-gradient(90deg, #f9e6f5, #e6f2f9);
+    height: 30px; 
+    padding-top: 0.50vw;
+}
+
   .contactInfo {
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-column-gap: 1em;
-    padding-top: 25px;
-    place-items: center;
 }
 
 .contactDesc {
-    grid-column: 2/8;
+    grid-column: 1 / 5;
     text-align: center;
-    background-color: #D8E5BA;
-    padding: 20px;
-    border-radius: 25px;
 }
 
 .contactDesc h1 {
@@ -162,6 +264,19 @@
     font-family: "Inter-Bold", Helvetica;
 }
 
+.contactImage {
+    grid-column: 5 / 9;
+    background-color: #f9e6f5;
+    text-align: center;
+
+}
+
+.contactImage img {
+    width: 60%;
+    padding: 1vw;
+}
+
+/*
 .contactButtonSection {
     grid-column: 4 / 6;
     display: flex;    
@@ -183,3 +298,4 @@
     background-color: black; 
     border-color: black;
 }
+*/
