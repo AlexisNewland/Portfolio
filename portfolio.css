@@ -82,13 +82,13 @@
 
 .buttonSection .btn {
     color: #b8b69c;
-    border: 0.15vw solid #b8b69c; /* Changed to use vw units for border width */
+    border: 0.15vw solid #b8b69c;
     border-radius: 10px; 
     transition: all 0.3s ease; 
-    padding: 0.75vw 2vw; /* Added padding with vw units */
-    font-size: 1.25vw; /* Added font-size with vw units */
+    padding: 0.75vw 2vw;
+    font-size: 1.25vw; 
     text-align: center;
-    text-decoration: none; /* Remove underline from link */
+    text-decoration: none; 
 }
 
 .buttonSection .btn:hover {
@@ -140,10 +140,10 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column-gap: 1em;
-    grid-row-gap: 1em; /* Add gap between rows */
+    grid-row-gap: 1em; 
     padding-top: 1.25vw;
     padding-bottom: 1.75vw;
-    grid-auto-rows: minmax(100px, auto); /* Automatically create new rows */
+    grid-auto-rows: minmax(100px, auto); 
 }
 
 .skillsAndQual .btn {
@@ -196,7 +196,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 1em;
-    grid-row-gap: 1em; /* Add gap between rows */
+    grid-row-gap: 1em; 
     padding-top: 1.25vw;
     padding-bottom: 1.25vw;
     /* grid-auto-rows: minmax(100px, auto); /* Automatically create new rows */
@@ -238,64 +238,72 @@
 
   .gradientLineContact {
     width: 100%;
-    /*background: linear-gradient(135deg, #b8b69c, #e6d1a3, #e6a3a3, #d3a3b5); */
     background: linear-gradient(90deg, #f9e6f5, #e6f2f9);
     height: 30px; 
     padding-top: 0.50vw;
 }
 
-  .contactInfo {
+.contactInfo {
     display: grid;
     grid-template-columns: repeat(8,1fr);
+    height: 100vh;
 }
 
 .contactDesc {
     grid-column: 1 / 5;
     text-align: center;
+    padding: 5vw;
 }
 
-.contactDesc h1 {
-    color: black;
-    font-family: "Caveat-Regular", Helvetica;
+.contactDesc h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25vw;
+    color: #b8b69c;
 }
 
-.contactDesc h6 {
-    color: black;
-    font-family: "Inter-Bold", Helvetica;
+.contactDesc h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.5;
+    font-weight: 400;
 }
+
+.contactDesc p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
+.contactDesc img {
+    width: 5%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-link img {
+    width: 40px; 
+    height: auto;
+}
+
 
 .contactImage {
     grid-column: 5 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f9e6f5;
-    text-align: center;
-
+    padding: 30px;
 }
 
 .contactImage img {
-    width: 60%;
-    padding: 1vw;
+    width: 30vw;
+    height: 85%;
+    border: 10px solid; 
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #f7f3eb, #e6f9e6, #b8b69c);
 }
-
-/*
-.contactButtonSection {
-    grid-column: 4 / 6;
-    display: flex;    
-    justify-content: center; 
-    align-items: center; 
-    padding-top: 15px;
-}
-
-
-.contactButtonSection .btn {
-    color: black; 
-    border-color: black; 
-    border-radius: 0%; 
-    transition: all 0.3s ease; 
-}
-
-.contactButtonSection .btn:hover {
-    color: #ffffff; 
-    background-color: black; 
-    border-color: black;
-}
-*/
